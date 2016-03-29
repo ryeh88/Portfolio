@@ -2,6 +2,16 @@ html {
    font-family: 'Abel', sans-serif;
 }
 
+/* Responsive */
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .masthead {
+      padding: 3em 0;
+    }
+  }
+
 /* NAVIGATION BAR */
 .navelements li {
   list-style-type: none;
@@ -24,6 +34,8 @@ html {
 .masthead-heading {
   text-align: center;
 }
+
+
 
 .mastnav {
 	float: right;
@@ -90,6 +102,7 @@ hr {
   display: inline-block;
   padding: 1em;  
 }
+
 
 
 
